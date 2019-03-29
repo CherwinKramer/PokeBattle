@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Cherwin
+ *
+ */
+module Pokebattle {
+}
