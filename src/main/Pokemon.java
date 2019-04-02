@@ -34,8 +34,10 @@ public abstract class Pokemon {
 		if(pokemon.getResistance().getEnergyType() == this.energyType) {
 			resist = pokemon.getResistance().getValue();
 		}
-		
 		pokemon.reductDamage(multiplier, resist, attack);
+		
+		System.out.println(this.name + " used " + attack.getName() + " and now " + pokemon.getName() + "'s health is " + pokemon.getHealth() +"!");
+
 	}
 	
 	public void reductDamage(Double multiplier, Double resist, Attack attack) {
